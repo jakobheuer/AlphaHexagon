@@ -1,11 +1,13 @@
-[StyleUiDarkFont]
-FontFace=Share Tech Mono
+[StyleNumber]
+FontFace=Expansiva
+FontSize=#FontSize#
 StringAlign=CenterCenter
-FontColor=#DarkGray#
+FontColor=#FontColor#
 AntiAlias=1
 
-[StyleUiLightFont]
-FontFace=Share Tech Mono
+[StyleLabel]
+FontFace=Orbitron
+FontSize=#FontSize#
 StringAlign=CenterCenter
-FontColor=#LightGray#
+FontColor=#FontColor#
 AntiAlias=1

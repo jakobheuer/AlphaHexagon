@@ -2,9 +2,9 @@
 Meter=String
 Text=#LabelText#
 X=(#IconWidth# / 2)
-Y=#IconHeight# - (45 * #Scaling#)
-FontFace=Segoe UI
-FontSize=(16 * #Scaling#)
+Y=#IconHeight# - (42 * #Scaling#)
+FontFace=Orbitron
+FontSize=(14 * #Scaling#)
 StringAlign=Center
 FontColor=255,255,255
 AntiAlias=1
