@@ -3,7 +3,7 @@ Update=-1
 @Include=basic.inc
 
 [Variables]
-FadingMeter=MeterColorIcon
+FadingMeter=MeterGrayIcon
 Fade=0
 
 [Fader]
@@ -11,7 +11,6 @@ Measure=Script
 ScriptFile=#@#fade_variable.lua
 FadingVariable=Fade
 FadingMeter=#FadingMeter#
-BackgroundMeter=MeterGrayIcon
 FadeInStep=#FadeInStep#
 FadeOutStep=#FadeOutStep#
 
@@ -25,16 +24,16 @@ LeftMouseUpAction=#MainAction#
 MouseOverAction=[!CommandMeasure Fader "FadeIn()"]
 MouseLeaveAction=[!CommandMeasure Fader "FadeOut()"]
 
-[MeterGrayIcon]
+[MeterMask]
 Meter=Image
-ImageName=#IconDir##GrayIcon#
+ImageName=#IconDir##Icon#
 W=#IconWidth#
 AntiAlias=1
 
-[MeterColorIcon]
+[MeterGrayIcon]
 Meter=Image
-ImageName=#IconDir##ColorIcon#
+SolidColor=#TintGray#,((1 - #Fade#) * 255)
 W=#IconWidth#
-ImageAlpha=(#Fade# * 255)
-AntiAlias=1
+H=#IconHeight#
 DynamicVariables=1
+Container=MeterMask

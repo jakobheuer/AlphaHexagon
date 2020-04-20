@@ -12,18 +12,18 @@ GridH=(3 * #BaseY#)
 GridX=((#SCREENAREAWIDTH# - 30 * #BaseX#) / 2)
 GridY=((#WORKAREAHEIGHT# - 28 * #BaseY#) / 2)
 
-FadeInStep=20
-FadeInRepeat=13
-FadeOutStep=4
-FadeOutRepeat=64
+FadeInStep=0.04
+FadeOutStep=0.01
+
+IconDir=#@#Icons\IconsScaled\
 
 Hitbox=Hexagon_Dark.png
 HitboxDark=Hexagon_Dark.png
 HitboxLight=Hexagon_Light.png
 HitboxAlpha=(#HitboxVisible# > 0 ? 255 : 1)
 
-IconDir=#@#Icons\IconsScaled\
-
+Black=0,0,0
 DarkGray=64,64,64
 MiddleGray=127,127,127
 LightGray=191,191,191
+White=255,255,255

@@ -4,12 +4,16 @@ IconStyle = fading
 ;fading - fading animation from gray to color
 
 HitboxVisible = 1
-;0 - transparent Hitbox
-;1 - visible Hitbox
+;0 - transparent hitbox
+;1 - visible hitbox
 
 SnapGrid = on
 ;off - Nothing happens on refresh
 ;on - Icons snap to invisible grid on refresh
+
+;------------------------------------------------
+
+;To apply the settings save the file, go to Rainmeter and hit "Refresh all"
 
 ;------------------------------------------------
 

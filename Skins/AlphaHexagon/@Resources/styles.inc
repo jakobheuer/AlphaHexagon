@@ -11,3 +11,10 @@ FontSize=#FontSize#
 StringAlign=CenterCenter
 FontColor=#FontColor#
 AntiAlias=1
+
+[StyleNametag]
+FontFace=Orbitron
+FontSize=#FontSize#
+StringAlign=Center
+FontColor=#FontColor#
+AntiAlias=1
