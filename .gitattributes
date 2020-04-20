@@ -1,0 +1,6 @@
+* text=auto
+
+*.ini text
+*.inc text
+
+*.png binary
