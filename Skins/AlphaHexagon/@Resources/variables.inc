@@ -12,8 +12,8 @@ GridH=(3 * #BaseY#)
 GridX=((#SCREENAREAWIDTH# - 30 * #BaseX#) / 2)
 GridY=((#WORKAREAHEIGHT# - 28 * #BaseY#) / 2)
 
-FadeInStep=0.04
-FadeOutStep=0.01
+FadeInSteps=2
+FadeOutSteps=8
 
 IconDir=#@#Icons\IconsScaled\
 

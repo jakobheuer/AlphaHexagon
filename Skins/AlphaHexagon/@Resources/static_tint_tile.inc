@@ -10,16 +10,15 @@ ImageAlpha=#HitboxAlpha#
 AntiAlias=1
 LeftMouseUpAction=#MainAction#
 
-[MeterMask]
+[MeterIconMask]
 Meter=Image
-ImageName=#IconDir##Icon#
+ImageName=#IconDir##IconName#.png
 W=#IconWidth#
 AntiAlias=1
 
-[MeterColorIcon]
+[MeterActiveColor]
 Meter=Image
-SolidColor=#TintColor#
+SolidColor=#ActiveColor#
 W=#IconWidth#
 H=#IconHeight#
-Container=MeterMask
-
+Container=MeterIconMask

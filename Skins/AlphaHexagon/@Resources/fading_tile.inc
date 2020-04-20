@@ -3,17 +3,19 @@ Update=-1
 @Include=basic.inc
 
 [Variables]
-FadingMeter=MeterColorIcon
-Fade=0
+U=[!UpdateMeasure "Fader"][!UpdateMeter "MeterActiveColor"][!Redraw]
+Alpha=0
 
 [Fader]
-Measure=Script
-ScriptFile=#@#fade_variable.lua
-FadingVariable=Fade
-FadingMeter=#FadingMeter#
-BackgroundMeter=MeterGrayIcon
-FadeInStep=#FadeInStep#
-FadeOutStep=#FadeOutStep#
+Measure=Plugin
+Plugin=ActionTimer
+FadeIn=[!SetVariable Alpha "(Clamp((#Alpha# + 255 / #FadeInSteps#), 0, 255))"]#U#
+FadeOut=[!SetVariable Alpha "(Clamp((#Alpha# - 255 / #FadeOutSteps#), 0, 255))"]#U#
+Hide=[!HideMeter "MeterInactiveColor"][!UpdateMeter "MeterInactiveColor"][!Redraw]
+Show=[!ShowMeter "MeterInactiveColor"][!UpdateMeter "MeterInactiveColor"][!Redraw]
+ActionList1=Repeat FadeIn, 40, #FadeInSteps# | Hide
+ActionList2=Show | Repeat FadeOut, 40, #FadeOutSteps#
+DynamicVariables=1
 
 [MeterHitbox]
 Meter=Image
@@ -22,19 +24,19 @@ W=#IconWidth#
 ImageAlpha=#HitboxAlpha#
 AntiAlias=1
 LeftMouseUpAction=#MainAction#
-MouseOverAction=[!CommandMeasure Fader "FadeIn()"]
-MouseLeaveAction=[!CommandMeasure Fader "FadeOut()"]
+MouseOverAction=[!CommandMeasure Fader "Stop 2"][!CommandMeasure Fader "Execute 1"]
+MouseLeaveAction=[!CommandMeasure Fader "Stop 1"][!CommandMeasure Fader "Execute 2"]
 
-[MeterGrayIcon]
+[MeterInactiveColor]
 Meter=Image
-ImageName=#IconDir##GrayIcon#
+ImageName=#IconDir##IconName#_g.png
 W=#IconWidth#
 AntiAlias=1
 
-[MeterColorIcon]
+[MeterActiveColor]
 Meter=Image
-ImageName=#IconDir##ColorIcon#
+ImageName=#IconDir##IconName#.png
 W=#IconWidth#
-ImageAlpha=(#Fade# * 255)
+ImageAlpha=#Alpha#
 AntiAlias=1
 DynamicVariables=1
