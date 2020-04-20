@@ -1,3 +1,6 @@
+[Rainmeter]
+@Include=settings.inc
+
 [Variables]
 Scaling=(#SCREENAREAHEIGHT# / 1080)
 
@@ -20,10 +23,10 @@ FadeOutRepeat=64
 Hitbox=Hexagon_Dark.png
 HitboxDark=Hexagon_Dark.png
 HitboxLight=Hexagon_Light.png
-HitboxAlpha=1
+HitboxAlpha=(#HitboxVisible# = 1 ? 255 : 1)
 
 IconDir=#@#Icons\IconsScaled\
 
-DarkGray=64,64,64,255
-MiddleGray=127,127,127,255
-LightGray=191,191,191,255
+DarkGray=64,64,64
+MiddleGray=127,127,127
+LightGray=191,191,191
