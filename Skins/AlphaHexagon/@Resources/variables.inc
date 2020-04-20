@@ -1,8 +1,8 @@
 [Variables]
 Scaling=(#SCREENAREAHEIGHT# / 1080)
 
-IconWith=(126 * #Scaling#)
-IconHight=(144 * #Scaling#)
+IconWidth=(126 * #Scaling#)
+IconHeight=(144 * #Scaling#)
 
 GridW=(63 * #Scaling#)
 GridH=(108 * #Scaling#)
