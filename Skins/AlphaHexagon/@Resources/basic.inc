@@ -1,6 +1,7 @@
 [Rainmeter]
 MiddleMouseUpAction=[!Refresh #CURRENTCONFIG#]
 
-@Include=variables.inc
-@Include2=styles.inc
-@Include3=snap_grid_#SnapGrid#.inc
+@Include=settings.inc
+@Include2=variables.inc
+@Include3=styles.inc
+@Include4=snap_grid_#SnapGrid#.inc
