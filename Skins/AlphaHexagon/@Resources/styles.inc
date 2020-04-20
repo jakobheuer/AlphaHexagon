@@ -7,12 +7,6 @@ FontSize=12
 StringAlign=Center
 AntiAlias=1
 
-[StyleMenuFont]
-FontFace=Segoe UI
-FontSize=9
-FontColor=#MenuFontColor#
-AntiAlias=1
-
 [StyleUiDarkFont]
 FontFace=Share Tech Mono
 StringAlign=CenterCenter
