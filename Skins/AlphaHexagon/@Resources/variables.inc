@@ -1,13 +1,16 @@
 [Variables]
 Scaling=(#SCREENAREAHEIGHT# / 1080)
 
-IconWidth=(126 * #Scaling#)
-IconHeight=(144 * #Scaling#)
+BaseX=(63 * #Scaling#)
+BaseY=(36 * #Scaling#)
 
-GridW=(63 * #Scaling#)
-GridH=(108 * #Scaling#)
-GridX=(15 * #Scaling#)
-GridY=(11 * #Scaling#)
+IconWidth=(2 * #BaseX#)
+IconHeight=(4 * #BaseY#)
+
+GridW=#BaseX#
+GridH=(3 * #BaseY#)
+GridX=((#SCREENAREAWIDTH# - 30 * #BaseX#) / 2)
+GridY=((#WORKAREAHEIGHT# - 28 * #BaseY#) / 2)
 
 FadeInStep=20
 FadeInRepeat=13
