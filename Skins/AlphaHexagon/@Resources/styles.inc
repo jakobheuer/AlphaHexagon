@@ -3,7 +3,7 @@
 
 [StyleLabelFont]
 FontFace=Segoe UI
-FontSize=12
+FontSize=(16 * #Scaling#)
 StringAlign=Center
 AntiAlias=1
 

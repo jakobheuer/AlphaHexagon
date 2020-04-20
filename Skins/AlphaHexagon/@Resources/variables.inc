@@ -1,11 +1,13 @@
 [Variables]
-IconWith=90
-IconHight=104
+Scaling=(#SCREENAREAHEIGHT# / 1080)
 
-GridW=45
-GridH=78
-GridX=8
-GridY=0
+IconWith=(126 * #Scaling#)
+IconHight=(144 * #Scaling#)
+
+GridW=(63 * #Scaling#)
+GridH=(108 * #Scaling#)
+GridX=(15 * #Scaling#)
+GridY=(11 * #Scaling#)
 
 FadeInStep=20
 FadeInRepeat=13
