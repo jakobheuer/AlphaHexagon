@@ -15,7 +15,7 @@ GridY=((#WORKAREAHEIGHT# - 28 * #BaseY#) / 2)
 FadeInSteps=2
 FadeOutSteps=8
 
-IconDir=#@#Icons\IconsScaled\
+IconDir=#@#Icons\Scaled\
 IconName=""
 ImageExt=.png
 
