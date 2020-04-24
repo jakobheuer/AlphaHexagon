@@ -1,5 +1,6 @@
 [MeasureStatus]
-Measure=NowPlaying
+Measure=Plugin
+Plugin=#Plugin#
 PlayerName=#PlayerName#
 PlayerType=STATUS
 IfEqualValue=0
