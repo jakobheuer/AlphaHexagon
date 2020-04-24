@@ -11,6 +11,11 @@ SnapGrid = on
 ;off - Nothing special happens on refresh
 ;on - Icons snap to invisible grid on refresh
 
+Hitbox=#HitboxDark#
+ActiveColor=255,255,255
+InactiveColor=159,159,159
+;These are the default colors of the skin. All skins use these values if they don't overwrite them
+
 ;------------------------------------------------
 
 ;To apply the settings save the file, go to Rainmeter and hit "Refresh all"

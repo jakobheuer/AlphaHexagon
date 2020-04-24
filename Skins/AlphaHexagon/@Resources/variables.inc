@@ -21,7 +21,6 @@ ImageExt=.png
 
 HitboxDark=Hexagon_Dark
 HitboxLight=Hexagon_Light
-Hitbox=#HitboxDark#
 
 HitboxPath=#IconDir##Hitbox##ImageExt#
 IconPath=#IconDir##IconName##ImageExt#
@@ -32,9 +31,5 @@ HitboxAlpha=(#HitboxVisible# > 0 ? 255 : 1)
 Black=0,0,0
 DarkGray=64,64,64
 MiddleGray=127,127,127
-LightMiddleGray=159,159,159
 LightGray=191,191,191
 White=255,255,255
-
-ActiveColor=#White#
-InactiveColor=#LightMiddleGray#
