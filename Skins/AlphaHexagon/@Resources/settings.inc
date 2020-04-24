@@ -8,7 +8,7 @@ HitboxVisible = 1
 ;1 - visible hitbox
 
 SnapGrid = on
-;off - Nothing happens on refresh
+;off - Nothing special happens on refresh
 ;on - Icons snap to invisible grid on refresh
 
 ;------------------------------------------------
