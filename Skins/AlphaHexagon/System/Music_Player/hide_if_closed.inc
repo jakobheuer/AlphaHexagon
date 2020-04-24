@@ -1,8 +1,4 @@
 [MeasureStatus]
-Measure=Plugin
-Plugin=#Plugin#
-PlayerName=#PlayerName#
-PlayerType=STATUS
 IfEqualValue=0
 IfEqualAction=[!Hide]
 IfAboveValue=0
