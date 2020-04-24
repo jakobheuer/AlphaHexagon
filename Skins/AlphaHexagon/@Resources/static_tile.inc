@@ -4,14 +4,21 @@ Update=-1
 
 [MeterHitbox]
 Meter=Image
-ImageName=#IconDir##Hitbox#
+ImageName=#HitboxPath#
 W=#IconWidth#
 ImageAlpha=#HitboxAlpha#
 AntiAlias=1
 LeftMouseUpAction=#MainAction#
 
-[MeterActiveColor]
+[MeterIconMask]
 Meter=Image
-ImageName=#IconDir##IconName#.png
+ImageName=#IconPath#
 W=#IconWidth#
 AntiAlias=1
+
+[MeterActiveColor]
+Container=MeterIconMask
+Meter=Image
+SolidColor=#ActiveColor#
+W=#IconWidth#
+H=#IconHeight#

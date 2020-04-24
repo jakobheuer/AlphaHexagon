@@ -16,14 +16,25 @@ FadeInSteps=2
 FadeOutSteps=8
 
 IconDir=#@#Icons\IconsScaled\
+IconName=""
+ImageExt=.png
 
-Hitbox=Hexagon_Dark.png
-HitboxDark=Hexagon_Dark.png
-HitboxLight=Hexagon_Light.png
+HitboxDark=Hexagon_Dark
+HitboxLight=Hexagon_Light
+Hitbox=#HitboxDark#
+
+HitboxPath=#IconDir##Hitbox##ImageExt#
+IconPath=#IconDir##IconName##ImageExt#
+ColorPath=#IconDir##IconName#_color#ImageExt#
+
 HitboxAlpha=(#HitboxVisible# > 0 ? 255 : 1)
 
 Black=0,0,0
 DarkGray=64,64,64
 MiddleGray=127,127,127
+LightMiddleGray=159,159,159
 LightGray=191,191,191
 White=255,255,255
+
+ActiveColor=#White#
+InactiveColor=#LightMiddleGray#
