@@ -14,7 +14,7 @@ SnapGrid = on
 Hitbox=#HitboxDark#
 ActiveColor=255,255,255
 InactiveColor=159,159,159
-;These are the default colors of the skin. All skins use these values if they don't overwrite them
+;These are the default colors of the skin. All skins use these values unless they overwrite them
 
 ;------------------------------------------------
 
