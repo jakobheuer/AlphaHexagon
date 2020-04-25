@@ -1,5 +1,5 @@
 [Variables]
-U=[!UpdateMeasure "Fader"][!UpdateMeter "MeterActiveColor"][!Redraw]
+U=[!UpdateMeasure Fader][!UpdateMeter MeterActiveColor][!Redraw]
 FadingAlpha=0
 
 [Fader]

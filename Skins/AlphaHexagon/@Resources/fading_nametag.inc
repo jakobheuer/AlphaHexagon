@@ -1,5 +1,5 @@
 [Variables]
-U=[!UpdateMeasure "Fader"][!UpdateMeter "MeterActiveColor"][!UpdateMeter "MeterNametag"][!Redraw]
+U=[!UpdateMeasure Fader][!UpdateMeter MeterActiveColor][!UpdateMeter MeterNametag][!Redraw]
 
 [MeterNametag]
 Meter=String

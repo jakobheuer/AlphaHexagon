@@ -2,5 +2,5 @@
 Measure=Plugin
 Plugin=Drag&Drop
 Action=Move
-Path="#Path#"
+Path=#Path#
 ProcessAllFiles=1
