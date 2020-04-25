@@ -8,7 +8,7 @@ ImageName=#HitboxPath#
 W=#IconWidth#
 ImageAlpha=#HitboxAlpha#
 AntiAlias=1
-LeftMouseUpAction=#MainAction#
+LeftMouseUpAction=#ClickAction#
 
 [MeterIconMask]
 Meter=Image

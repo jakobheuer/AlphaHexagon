@@ -9,7 +9,7 @@ ImageName=#HitboxPath#
 W=#IconWidth#
 ImageAlpha=#HitboxAlpha#
 AntiAlias=1
-LeftMouseUpAction=#MainAction#
+LeftMouseUpAction=#ClickAction#
 MouseOverAction=[!CommandMeasure Fader "Stop 2"][!CommandMeasure Fader "Execute 1"]
 MouseLeaveAction=[!CommandMeasure Fader "Stop 1"][!CommandMeasure Fader "Execute 2"]
 
