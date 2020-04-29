@@ -1,16 +1,20 @@
 [Variables]
-Scaling=(#SCREENAREAHEIGHT# / 1080)
+Scaling=#SCREENAREAHEIGHT# / 1080
+ReverseScaling=1080 / #SCREENAREAHEIGHT#
+;No parenthesis for better precision
+;Do not divide by #Scaling# but multiply by #ReverseScaling#
 
-BaseX=(63 * #Scaling#)
-BaseY=(36 * #Scaling#)
+vWorkAreaWidth=#SCREENAREAWIDTH#
+vWorkAreaHeight=Clamp(Round(#WORKAREAHEIGHT# * #ReverseScaling#, -1), 1020, 1080) * #Scaling#
+;vWorkAreaHeight=#SCREENAREAHEIGHT#
 
-IconWidth=(2 * #BaseX#)
-IconHeight=(4 * #BaseY#)
+IconWidth=(126 * #Scaling#)
+IconHeight=(144 * #Scaling#)
 
-GridW=#BaseX#
-GridH=(3 * #BaseY#)
-GridX=((#SCREENAREAWIDTH# - 30 * #BaseX#) / 2)
-GridY=((#WORKAREAHEIGHT# - 28 * #BaseY#) / 2)
+GridW=(63 * #Scaling#)
+GridH=(108 * #Scaling#)
+GridX=((#vWorkAreaWidth# - #IconWidth#) / 2)
+GridY=((#vWorkAreaHeight# - #IconHeight#) / 2)
 
 FadeInSteps=2
 FadeOutSteps=8
