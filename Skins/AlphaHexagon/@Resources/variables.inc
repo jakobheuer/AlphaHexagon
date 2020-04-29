@@ -17,14 +17,13 @@ FadeOutSteps=8
 
 IconDir=#@#Icons\Scaled\
 IconName=""
-ImageExt=.png
 
 HitboxDark=Hexagon_Dark
 HitboxLight=Hexagon_Light
 
-HitboxPath=#IconDir##Hitbox##ImageExt#
-IconPath=#IconDir##IconName##ImageExt#
-ColorPath=#IconDir##IconName#_color#ImageExt#
+HitboxPath=#IconDir##Hitbox#.png
+IconPath=#IconDir##IconName#.png
+ColorPath=#IconDir##IconName#_color.png
 
 HitboxAlpha=(#HitboxVisible# > 0 ? 255 : 1)
 
