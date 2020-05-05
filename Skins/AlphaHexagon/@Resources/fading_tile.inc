@@ -19,17 +19,17 @@ ImageName=#IconPath#
 W=#IconWidth#
 AntiAlias=1
 
-[MeterInactiveColor]
-Container=MeterIconMask
-Meter=Image
-SolidColor=#InactiveColor#
-W=#IconWidth#
-H=#IconHeight#
-
 [MeterActiveColor]
 Container=MeterIconMask
 Meter=Image
-SolidColor=#ActiveColor#,#FadingAlpha#
+SolidColor=#ActiveColor#
+W=#IconWidth#
+H=#IconHeight#
+
+[MeterInactiveColor]
+Container=MeterIconMask
+Meter=Image
+SolidColor=#InactiveColor#,#FadingAlpha#
 W=#IconWidth#
 H=#IconHeight#
 DynamicVariables=1

@@ -15,9 +15,3 @@ Meter=Image
 ImageName=#IconPath#
 W=#IconWidth#
 AntiAlias=1
-
-[MeterActiveColor]
-Container=MeterIconMask
-Meter=Image
-ImageName=#ColorPath#
-W=#IconWidth#
