@@ -1,4 +1,6 @@
 [Variables]
+;You can safely change the settings in this file. Don't touch the other include files unless you know what you are doing
+
 Fading = on
 ;off - static color icon
 ;on - fading animation from gray to color
