@@ -3,11 +3,7 @@ Update=-1
 
 [MeterHitbox]
 Meter=Image
-ImageName=#HitboxPath#
-W=#IconWidth#
-ImageAlpha=#HitboxAlpha#
-AntiAlias=1
-LeftMouseUpAction=#ClickAction#
+MeterStyle=StyleHitbox
 
 [MeterIconMask]
 Meter=Image
