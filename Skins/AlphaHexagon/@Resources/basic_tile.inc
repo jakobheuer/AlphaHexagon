@@ -1,6 +1,5 @@
 [Rainmeter]
 Update=-1
-@Include=basic.inc
 
 [MeterHitbox]
 Meter=Image

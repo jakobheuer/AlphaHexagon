@@ -1,4 +1,5 @@
 [Rainmeter]
+MiddleMouseUpAction=[!Refresh #CURRENTCONFIG#]
 OnRefreshAction=[!Move [GridPositionX] [GridPositionY]][!Zpos -2]
 
 [GridPositionX]

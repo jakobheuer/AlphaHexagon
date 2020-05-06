@@ -1,6 +1,4 @@
 [Rainmeter]
-MiddleMouseUpAction=[!Refresh #CURRENTCONFIG#]
-
 @Include=settings.inc
 @Include2=variables.inc
 @Include3=styles.inc

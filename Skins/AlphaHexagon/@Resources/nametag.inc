@@ -4,9 +4,11 @@ U=[!UpdateMeasure Fader][!UpdateMeter MeterInactiveColor][!UpdateMeter MeterName
 [MeterNametag]
 Meter=String
 Text=#Nametag#
-MeterStyle=StyleNametag
+FontFace=Orbitron
 FontSize=(14 * #Scaling#)
-FontColor=#White#,(255 - #FadingAlpha#)
+StringAlign=Center
 X=(#IconWidth# / 2)
 Y=(#IconHeight# - 42 * #Scaling#)
+FontColor=#White#,(255 - #FadingAlpha#)
+AntiAlias=1
 DynamicVariables=1

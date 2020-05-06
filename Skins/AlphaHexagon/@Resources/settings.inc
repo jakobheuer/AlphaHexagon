@@ -1,15 +1,15 @@
 [Variables]
-IconStyle = fading
-;static - static color icon
-;fading - fading animation from gray to color
-
-HitboxVisible = 1
-;0 - transparent hitbox
-;1 - visible hitbox
+Fading = on
+;off - static color icon
+;on - fading animation from gray to color
 
 SnapGrid = on
 ;off - Nothing special happens on refresh
 ;on - Icons snap to invisible grid on refresh
+
+HitboxVisible = 1
+;0 - transparent hitbox
+;1 - visible hitbox
 
 Hitbox=#HitboxDark#
 ActiveColor=255,255,255

@@ -27,7 +27,6 @@ HitboxLight=Hexagon_Light
 
 HitboxPath=#IconDir##Hitbox#.png
 IconPath=#IconDir##IconName#.png
-ColorPath=#IconDir##IconName#_color.png
 
 HitboxAlpha=(#HitboxVisible# > 0 ? 255 : 1)
 

@@ -1,0 +1,2 @@
+[Variables]
+FadingAlpha=0
