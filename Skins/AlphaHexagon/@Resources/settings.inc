@@ -20,8 +20,8 @@ InactiveColor=159,159,159
 
 ;------------------------------------------------
 
-;To apply the settings save the file, go to Rainmeter and hit "Refresh all"
+;To apply the settings save the file, go to Rainmeter and hit 'Refresh all'
 
 ;------------------------------------------------
 
-;If you don't want the Wallpaper to be set automatically on "Refresh all", unload "Wallpaper.ini"
+;If you don't want the Wallpaper to be set automatically on 'Refresh all', unload 'Wallpaper.ini'
